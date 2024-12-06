@@ -431,29 +431,73 @@ padding-top: 80px;
 .btn-input{
     display: flex;
 }
-.footer{
-    width: 100%;
-    height: 470px;
-    display: flex; 
-    
-}
-.footer--5{
-    width: 100%;
-    height: 473px;
-    background-color: #F8F8F8;
+ 
+footer {   
+    background-color: rgba(250, 235, 215, 0.248);
+    border-radius: 12px;
+    padding: 40px 20px; 
+  }
+  
+  .footer-container { 
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
-}
-.footer--5{
+    gap: 400px;
+    flex-wrap: wrap;
+  }
+   
+  .footer-about {
+    flex: 1 1 400px;
+    margin: 20px;
+  }
+  
+  .footer-about img {
+    max-height: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-about p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: black;
+  }
+   
+  
+  .footer-links {
+    flex: 1 1 100px;
+    margin: 20px;
+  }
+  
+  .footer-links h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
     display: flex;
     flex-direction: column;
-}
-.li--2{
-    display: flex; 
-    flex-direction: row; 
-}
-
-
-
+    gap: 10px;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    transition: color 0.3s;
+  }
+  
+  .footer-links ul li a:hover {
+    color: black;
+  }
+   
  
 
 
